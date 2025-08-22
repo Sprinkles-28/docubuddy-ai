@@ -71,5 +71,5 @@ OPENAI_API_KEY=your_api_key_here
 ✅ Fine-tuning with domain-specific data
 
 
-##🏆 Acknowledgement
+## 🏆 Acknowledgement
 Built during AI Agent Hackathon 2025 as a solo project to explore AI + NLP for workplace productivity.
