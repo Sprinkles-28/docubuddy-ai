@@ -10,7 +10,7 @@ Built during the **AI Agent Hackathon (2025) by Product Space**, it leverages **
 - 📂 **Document Ingestion**: Supports PDFs, DOCX, and TXT for knowledge base creation.  
 - ⚡ **AI-Powered**: Uses GPT-3.5 with NLP preprocessing for accurate, context-driven responses.  
 - 🌐 **User-Friendly UI**: Simple React frontend for seamless interaction.  
-- 🔑 **Secure Backend**: API key handling and query processing with Python (Flask/FastAPI).  
+- 🔑 **Secure Backend**: API key handling and query processing with Python (Flask).  
 
 ---
 
@@ -18,8 +18,7 @@ Built during the **AI Agent Hackathon (2025) by Product Space**, it leverages **
 - **Frontend**: React + Tailwind CSS  
 - **Backend**: Python (Flask/FastAPI)  
 - **AI Model**: OpenAI GPT-3.5  
-- **NLP Tools**: spaCy, NLTK (for preprocessing)  
-- **Database**: SQLite / Vector DB (FAISS / ChromaDB)  
+- **NLP Tools**: spaCy, NLTK (for preprocessing)    
 - **Authentication**: API key handling  
 
 ---
@@ -29,12 +28,10 @@ Built during the **AI Agent Hackathon (2025) by Product Space**, it leverages **
 DocuBuddyAI/
 │── frontend/               # React UI
 │── backend/                # Flask/FastAPI backend
-│ ├── api/                  # Endpoints
-│ ├── models/               # Query + NLP logic
-│── docs/                   # Sample documents
+│ ├── app.py/               # Endpoints, Query and NLP Logic
+│── company_policies.txt/   # Sample documents
 │── README.md               # Project documentation
 ```
-
 
 ##  Installation & Setup
 
